@@ -5,8 +5,6 @@ import '../App.css';
 
 function Door() {
 
-
-    console.log(11)
     return (
         <>
 
