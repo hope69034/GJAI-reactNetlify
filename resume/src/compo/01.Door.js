@@ -16,7 +16,10 @@ function Door() {
                     {/* a태그 링크 */}
                     <a
                         className="App-link"
-                        href="Home"
+                        href="https://shlog.netlify.app/"
+
+//href="Home"
+
                         /* target="_blank"  이건 새창으로 열기 */
                         rel="noopener noreferrer"
                     >
