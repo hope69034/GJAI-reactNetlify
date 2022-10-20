@@ -5,6 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -24,8 +25,10 @@
   color: white;
 }
 
+/* 웰컴 색상 */
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
+  /* color: #61dafb; */
 }
 
 @keyframes App-logo-spin {

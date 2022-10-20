@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Door from './compo/01.Door';
+import Home from './compo/02.Home';
+import { Route, Routes } from 'react-router-dom';
+//Routes 여러개의페이지(컴포넌트)에대한 정보를 가지고 잇는 태그
+//Route 페이지(컴포넌트)에경로(주소)를 부여해 줄 수 잇는 역할
+import Resume from './compo/03.Resume';
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+      <Routes>
+        <Route path='/' element={<Door></Door>}></Route>
+        <Route path='/Home' element={<Home></Home>}></Route>
+        <Route path='/Resume' element={<Resume></Resume>}></Route>
+      </Routes>
+
+    </>
   );
 }
 
