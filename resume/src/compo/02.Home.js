@@ -1,8 +1,7 @@
 
 
 function Home() {
-
-    return (
+    return ( 
 
         <>
             <a href='/'>Door</a>
