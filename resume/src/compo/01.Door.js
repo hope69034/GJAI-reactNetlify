@@ -12,20 +12,20 @@ function Door() {
 
             <div className="App">
                 <header className="App-header">
-               The Curious Developer SeHyoung
+                    The Curious Developer SeHyoung
                     {/* a태그 링크 */}
                     <a
                         className="App-link"
-                        href="https://shlog.netlify.app/"
+                        //href="https://shlog.netlify.app/"
 
-//href="Home"
+                        href="Home"
 
                         /* target="_blank"  이건 새창으로 열기 */
                         rel="noopener noreferrer"
                     >
                         {/* 홈 중앙 큰 별 로고 */}
                         <img src={logo} className="App-logo" alt="logo" /><br></br>
-                        
+
                     </a>
                     Welcome to SHworld
                 </header>
